@@ -1,0 +1,155 @@
+﻿<Cruises>
+  <AirMandatory>false</AirMandatory>
+  <AllInclBnsCommTotal>0.0</AllInclBnsCommTotal>
+  <AllInclBnsCommTotalBfrDisc>0.0</AllInclBnsCommTotalBfrDisc>
+  <AllInclCommTotal>1595.7</AllInclCommTotal>
+  <AllInclCommTotalBfrDisc>1595.7</AllInclCommTotalBfrDisc>
+  <AllInclNetTotal>10442.3</AllInclNetTotal>
+  <AllInclNetTotalBfrDisc>10442.3</AllInclNetTotalBfrDisc>
+  <AllInclStdCommTotal>1595.7</AllInclStdCommTotal>
+  <AllInclStdCommTotalBfrDisc>1595.7</AllInclStdCommTotalBfrDisc>
+  <AllowedOccupancies>1,4</AllowedOccupancies>
+  <ArrivalDate>2021-01-11</ArrivalDate>
+  <GuaranteesAvailable>1</GuaranteesAvailable>
+  <PricedCategory>B1</PricedCategory>
+  <TotalAvailable>16</TotalAvailable>
+  <BonusCommissionAmtBfrDisc>0.0</BonusCommissionAmtBfrDisc>
+  <BonusCommissionAmt>0.0</BonusCommissionAmt>
+  <CabinPrice>10638.0</CabinPrice>
+  <CabinsAvailable>15</CabinsAvailable>
+  <Canvas>EMW</Canvas>
+  <CanvasDesc>DUBAI, ABU DHABI &amp; ÃNDIA</CanvasDesc>
+  <Category>B1</Category>
+  <CategoryPriceDetails>
+    <Pax PaxID="-9999">
+      <AllInclBnsComm>0.00</AllInclBnsComm>
+      <AllInclBnsCommBfrDisc>0.00</AllInclBnsCommBfrDisc>
+      <AllInclComm>797.85</AllInclComm>
+      <AllInclCommBfrDisc>797.85</AllInclCommBfrDisc>
+      <AllInclNet>5221.15</AllInclNet>
+      <AllInclNetBfrDisc>5221.15</AllInclNetBfrDisc>
+      <AllInclStdComm>797.85</AllInclStdComm>
+      <AllInclStdCommBfrDisc>797.85</AllInclStdCommBfrDisc>
+      <AllInclusivePerPax>6019.00</AllInclusivePerPax>
+      <AllInclusivePerPaxBfrDisc>6019.00</AllInclusivePerPaxBfrDisc>
+      <Charge ChargeType="CAB">
+        <BonusCommissionAmtBfrDisc>0.00</BonusCommissionAmtBfrDisc>
+        <BonusCommissionAmt>0.00</BonusCommissionAmt>
+        <CommissionAmt>797.85</CommissionAmt>
+        <CommBfrDisc>797.85</CommBfrDisc>
+        <GrossAmountBfrDisc>5319.00</GrossAmountBfrDisc>
+        <GrossAmount>5319.00</GrossAmount>
+        <NetAmountBfrDisc>4521.15</NetAmountBfrDisc>
+        <NetAmount>4521.15</NetAmount>
+        <StdCommissionAmtBfrDisc>797.85</StdCommissionAmtBfrDisc>
+        <StdCommissionAmt>797.85</StdCommissionAmt>
+        <TotDiscAmt>0.00</TotDiscAmt>
+      </Charge>
+      <Charge ChargeType="PCH">
+        <BonusCommissionAmtBfrDisc>0.00</BonusCommissionAmtBfrDisc>
+        <BonusCommissionAmt>0.00</BonusCommissionAmt>
+        <CommissionAmt>0.00</CommissionAmt>
+        <CommBfrDisc>0.00</CommBfrDisc>
+        <GrossAmountBfrDisc>700.00</GrossAmountBfrDisc>
+        <GrossAmount>700.00</GrossAmount>
+        <NetAmountBfrDisc>700.00</NetAmountBfrDisc>
+        <NetAmount>700.00</NetAmount>
+        <StdCommissionAmtBfrDisc>0.00</StdCommissionAmtBfrDisc>
+        <StdCommissionAmt>0.00</StdCommissionAmt>
+        <TotDiscAmt>0.00</TotDiscAmt>
+      </Charge>
+    </Pax>
+    <Pax PaxID="-9998">
+      <AllInclBnsComm>0.00</AllInclBnsComm>
+      <AllInclBnsCommBfrDisc>0.00</AllInclBnsCommBfrDisc>
+      <AllInclComm>797.85</AllInclComm>
+      <AllInclCommBfrDisc>797.85</AllInclCommBfrDisc>
+      <AllInclNet>5221.15</AllInclNet>
+      <AllInclNetBfrDisc>5221.15</AllInclNetBfrDisc>
+      <AllInclStdComm>797.85</AllInclStdComm>
+      <AllInclStdCommBfrDisc>797.85</AllInclStdCommBfrDisc>
+      <AllInclusivePerPax>6019.00</AllInclusivePerPax>
+      <AllInclusivePerPaxBfrDisc>6019.00</AllInclusivePerPaxBfrDisc>
+      <Charge ChargeType="CAB">
+        <BonusCommissionAmtBfrDisc>0.00</BonusCommissionAmtBfrDisc>
+        <BonusCommissionAmt>0.00</BonusCommissionAmt>
+        <CommissionAmt>797.85</CommissionAmt>
+        <CommBfrDisc>797.85</CommBfrDisc>
+        <GrossAmountBfrDisc>5319.00</GrossAmountBfrDisc>
+        <GrossAmount>5319.00</GrossAmount>
+        <NetAmountBfrDisc>4521.15</NetAmountBfrDisc>
+        <NetAmount>4521.15</NetAmount>
+        <StdCommissionAmtBfrDisc>797.85</StdCommissionAmtBfrDisc>
+        <StdCommissionAmt>797.85</StdCommissionAmt>
+        <TotDiscAmt>0.00</TotDiscAmt>
+      </Charge>
+      <Charge ChargeType="PCH">
+        <BonusCommissionAmtBfrDisc>0.00</BonusCommissionAmtBfrDisc>
+        <BonusCommissionAmt>0.00</BonusCommissionAmt>
+        <CommissionAmt>0.00</CommissionAmt>
+        <CommBfrDisc>0.00</CommBfrDisc>
+        <GrossAmountBfrDisc>700.00</GrossAmountBfrDisc>
+        <GrossAmount>700.00</GrossAmount>
+        <NetAmountBfrDisc>700.00</NetAmountBfrDisc>
+        <NetAmount>700.00</NetAmount>
+        <StdCommissionAmtBfrDisc>0.00</StdCommissionAmtBfrDisc>
+        <StdCommissionAmt>0.00</StdCommissionAmt>
+        <TotDiscAmt>0.00</TotDiscAmt>
+      </Charge>
+    </Pax>
+  </CategoryPriceDetails>  
+  <CommissionAmt>1595.7</CommissionAmt>
+  <CommBfrDisc>1595.7</CommBfrDisc>
+  <ConfigCode>A4</ConfigCode>
+  <CruAvail>670</CruAvail>
+  <CruiseId>BE20210104DXBDXBCRU</CruiseId>
+  <CruiseLen>7</CruiseLen>
+  <CurrencyCd>BRL</CurrencyCd>
+  <DepartureDate>2021-01-04 00:00:00.0</DepartureDate>
+  <DisembkPort>DXB</DisembkPort>
+  <DisembkPortDesc>Dubai,  Emirados Arabes Unidos</DisembkPortDesc>
+  <EmbkPort>DXB</EmbkPort>
+  <EmbkPortDesc>Dubai,  Emirados Arabes Unidos</EmbkPortDesc>
+  <FirstPaxPrice>5319.0</FirstPaxPrice>
+  <FitAirManagement>false</FitAirManagement>
+  <InstantConfirm>No</InstantConfirm>
+  <LimitAirports>N</LimitAirports>
+  <MaximumOccupancy>4</MaximumOccupancy>
+  <MaximunOccupancyGar>2</MaximunOccupancyGar>
+  <PortChargesAmt>1400.0</PortChargesAmt>
+  <PriceCode>BEW20BRGL070212</PriceCode>
+  <PriceDesc>EARLY BKG</PriceDesc>
+  <PriceType>ERLKG</PriceType>
+  <PricedOccupancy>2</PricedOccupancy>
+  <SecondPaxPrice>5319.0</SecondPaxPrice>
+  <ShipCd>BE</ShipCd>
+  <ShipName>MSC BELLISSIMA</ShipName>
+  <SngPrice>0</SngPrice>
+  <StdCommissionAmtBfrDisc>1595.7</StdCommissionAmtBfrDisc>
+  <StdCommissionAmt>1595.7</StdCommissionAmt>
+  <SurchargesAmtBfrDisc>0.0</SurchargesAmtBfrDisc>
+  <SurchargesAmt>0.0</SurchargesAmt>
+  <TotDiscAmt>0.00</TotDiscAmt>
+  <TotalAllInclusiveCabinPrice>12038.0</TotalAllInclusiveCabinPrice>
+  <TotalCabinPriceBfrDisc>12038.00</TotalCabinPriceBfrDisc>
+  <TotalCabinPrice>12038.00</TotalCabinPrice>
+  <CABFSAdt>0</CABFSAdt>
+  <CABSng>0</CABSng>
+  <CABTAdt>0</CABTAdt>
+  <CABTChd>0</CABTChd>
+  <FSAdtPrice>0</FSAdtPrice>
+  <FUEFSAdt>0</FUEFSAdt>
+  <FUESng>0</FUESng>
+  <FUETAdt>0</FUETAdt>
+  <FUETChd>0</FUETChd>
+  <GFTFSAdt>0</GFTFSAdt>
+  <GFTSng>0</GFTSng>
+  <GFTTAdt>0</GFTTAdt>
+  <GFTTChd>0</GFTTChd>
+  <NCFFSAdt>0</NCFFSAdt>
+  <NCFSng>0</NCFSng>
+  <NCFTAdt>0</NCFTAdt>
+  <NCFTChd>0</NCFTChd>
+  <TAdtPrice>0</TAdtPrice>
+  <TChdPrice>0</TChdPrice>
+</Cruises>

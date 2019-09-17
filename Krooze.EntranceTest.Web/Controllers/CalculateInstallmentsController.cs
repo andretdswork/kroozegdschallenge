@@ -7,13 +7,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Krooze.EntranceTest.Web.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    
     [ApiController]
     public class CalculateInstallmentsController : ControllerBase
     {
         private CalculateInstallmentsService _calculateInstallmentsService = new CalculateInstallmentsService();
-        
-        [HttpGet("{fullPrice}")]        
+
+        [Route("api/CalculateInstallments/Installments/{:fullPrice}")]
+        [HttpGet]
         public ActionResult<int> Get(decimal fullPrice)
         {
             return _calculateInstallmentsService.GetInstallments(fullPrice);

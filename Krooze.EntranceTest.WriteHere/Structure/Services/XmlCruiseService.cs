@@ -5,17 +5,16 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Xml;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Krooze.EntranceTest.WriteHere.Structure.Services
 {
     public class XmlCruiseService
     {        
-        private const string _XMLPATH = @"D:\Estudos\C#\kroozegdschallenge-master\kroozegdschallenge-master\Krooze.EntranceTest.WriteHere\Resources\Cruises.xml";        
+        private string _XMLPATH = AppDomain.CurrentDomain.BaseDirectory + @"\Resources\Cruises.xml";
         XmlNode nodeRoot = null;
         XmlDocument xmlDocument = null;
         XmlNodeList listPax = null;
-        string XmlString = string.Empty;
-        private IConfiguration _configuration = null;
 
         public XmlCruiseService()
         {
@@ -31,7 +30,7 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Services
         }
 
         private void LoadAndSetXml()
-        {            
+        {                 
             xmlDocument.LoadXml(File.ReadAllText(_XMLPATH));
             SetXmlNodesList();
         }       

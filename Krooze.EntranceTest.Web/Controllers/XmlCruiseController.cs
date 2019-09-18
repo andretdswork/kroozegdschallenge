@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Krooze.EntranceTest.WriteHere.Structure.Model;
+﻿using Krooze.EntranceTest.WriteHere.Structure.Model;
 using Krooze.EntranceTest.WriteHere.Structure.Services;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 
 namespace Krooze.EntranceTest.Web.Controllers
 {

@@ -1,16 +1,15 @@
 ﻿using Krooze.EntranceTest.WriteHere.Structure.Model;
 using Krooze.EntranceTest.WriteHere.Structure.Services;
+using Microsoft.Extensions.Configuration;
 
 namespace Krooze.EntranceTest.WriteHere.Tests.LogicTests
 {
     public class XMLTest
     {
-        private XmlCruiseService _xmlCruiseService = null;
-
+        private XmlCruiseService _xmlCruiseService = null;        
         public XMLTest()
         {
             _xmlCruiseService = new XmlCruiseService();
-            
         }
         
         public CruiseDTO TranslateXML()

@@ -24,27 +24,20 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Model
         
         public List<PassengerCruiseDTO> PassengerCruise { get; set; }
 
-        private decimal FirstCabinValue
+        public bool IsThereDiscount()
         {
-            get
-            {
-                return this.PassengerCruise.First().Cruise.CabinValue;
-            }
+            return this.LastCabinValue() < this.FirstCabinValue();
+        }        
+        private decimal FirstCabinValue()
+        {            
+            return this.PassengerCruise.First().Cruise.CabinValue;
         }
 
-        private decimal LastCabinValue
-        {
-            get
-            {
-                return this.PassengerCruise.Last().Cruise.CabinValue;
-            }
+        private decimal LastCabinValue()
+        {            
+            return this.PassengerCruise.Last().Cruise.CabinValue;            
         }
 
-        public bool IsThereDiscount
-        {
-            get {
-                return this.LastCabinValue < this.FirstCabinValue;
-            }            
-        }
+        
     }
 }

@@ -9,11 +9,11 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Services
     public class CruiseService
     {
         private CruiseDTO _cruiseDTO;
-        public CruiseService() { }
-        public CruiseService(CruiseDTO cruiseDTO)
+        public CruiseService()
         {
-            _cruiseDTO = cruiseDTO;
+            _cruiseDTO = new CruiseDTO();
         }
+        
 
         #region Methods        
 
@@ -40,7 +40,26 @@ namespace Krooze.EntranceTest.WriteHere.Structure.Services
             return cruiseDTO.TotalValue - cruiseDTO.CabinValue - cruiseDTO.PortCharge;
         }
 
-        
+        public decimal GetOtherTaxes(decimal cabinValue, decimal portCharge, decimal totalValue)
+        {            
+            return totalValue - cabinValue - portCharge;
+        }
+
+        public bool IsThereDiscount(decimal firstPassenger, decimal secondPassenger)
+        {
+            _cruiseDTO = new CruiseDTO()
+            {
+                PassengerCruise = new List<PassengerCruiseDTO>()
+                {
+                    new PassengerCruiseDTO()
+                        {PassengerCode = "1", Cruise = new CruiseDTO() {CabinValue = firstPassenger}},
+                    new PassengerCruiseDTO()
+                        {PassengerCode = "2", Cruise = new CruiseDTO() {CabinValue = secondPassenger}},
+                }
+            };
+
+            return _cruiseDTO.IsThereDiscount();
+        }
 
         #endregion
     }

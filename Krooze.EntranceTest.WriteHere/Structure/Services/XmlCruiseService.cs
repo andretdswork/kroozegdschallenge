@@ -1,34 +1,40 @@
 ﻿using Krooze.EntranceTest.WriteHere.Structure.Model;
+using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
-using System.Text;
 using System.Xml;
 
 namespace Krooze.EntranceTest.WriteHere.Structure.Services
 {
     public class XmlCruiseService
-    {
-        private const string _XMLPATH = @"..\..\..\..\Krooze.EntranceTest.WriteHere\Resources\Cruises.xml";
+    {        
+        private const string _XMLPATH = @"D:\Estudos\C#\kroozegdschallenge-master\kroozegdschallenge-master\Krooze.EntranceTest.WriteHere\Resources\Cruises.xml";        
         XmlNode nodeRoot = null;
         XmlDocument xmlDocument = null;
         XmlNodeList listPax = null;
         string XmlString = string.Empty;
+        private IConfiguration _configuration = null;
 
         public XmlCruiseService()
         {
-            xmlDocument = new XmlDocument();            
-            xmlDocument.LoadXml(File.ReadAllText(_XMLPATH));
-            SetXmlNodesList();
+            xmlDocument = new XmlDocument();                        
         }        
 
         public CruiseDTO GetCruiseXml()
         {
+            LoadAndSetXml();
             CruiseDTO cruiseDTO = ReturnCruiseValues();
             cruiseDTO.PassengerCruise = ReturnPassengerCruiseList();
             return cruiseDTO;
         }
+
+        private void LoadAndSetXml()
+        {            
+            xmlDocument.LoadXml(File.ReadAllText(_XMLPATH));
+            SetXmlNodesList();
+        }       
 
         private void SetXmlNodesList()
         {

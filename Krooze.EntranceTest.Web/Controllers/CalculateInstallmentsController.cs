@@ -1,23 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Krooze.EntranceTest.WriteHere.Structure.Services;
+﻿using Krooze.EntranceTest.WriteHere.Structure.Services;
 using Microsoft.AspNetCore.Mvc;
+using System.Web.Http;
 
 namespace Krooze.EntranceTest.Web.Controllers
 {
-    
     [ApiController]
+    [Route("api/[controller]")]
     public class CalculateInstallmentsController : ControllerBase
     {
         private CalculateInstallmentsService _calculateInstallmentsService = new CalculateInstallmentsService();
-
-        [Route("api/CalculateInstallments/Installments/{:fullPrice}")]
+        
+        [Route("Installments/{fullPrice}")]
         [HttpGet]
         public ActionResult<int> Get(decimal fullPrice)
         {
             return _calculateInstallmentsService.GetInstallments(fullPrice);
-        }
+        }        
     }
 }

@@ -23,7 +23,7 @@ namespace Krooze.EntranceTest.WriteHere.Tests.LogicTests
         {
             //TODO: Based on the CruisesDTO object, check if the second passenger has some kind of discount, based on the first passenger price
             //Assume there are always 2 passengers on the list
-            return cruise.IsThereDiscount;
+            return cruise.IsThereDiscount();
         }
 
         public int? GetInstallments(decimal fullPrice)
